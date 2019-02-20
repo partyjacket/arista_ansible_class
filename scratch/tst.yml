@@ -1,0 +1,39 @@
+---
+
+- lista
+- - sublist a item_1
+  - sublist a item_2
+
+- - sublist b item_1
+
+---
+parents:
+  dad: jason
+  mom: holly
+
+kids stuff:
+  pets:
+    - lizard
+    - cats
+
+---
+- - list1
+  - list 1.1
+  - list 1.2
+- - list2
+  - list 2.1
+  - list 2.2
+
+---
+ipaddress: 192.168.10.100
+interface: eth0
+subnetmask: 255.255.255.0
+
+---
+interface:
+  - eth0.1
+  - eth0.2
+ipaddresses:
+  - 192.168.101.1/24
+  - 192.168.102.1/24
+
